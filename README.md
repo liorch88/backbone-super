@@ -34,3 +34,18 @@ To use it, simply include it after you include Backbone.js:
 <script type="text/javascript" src="backbone.js"></script>
 <script type="text/javascript" src="backbone-super.js"></script>
 ```
+
+You can also use it in Lumber, by adding it to the mixin. It should be added after Backbone, and before anything that extends from Backbone, such as Thorax:
+```javascript
+{
+"mixins": [
+        "lumbar-loader",
+        "thorax-dep-jquery",
+        "backbone-super",
+        "thorax",
+        "thorax-loading"
+      ],
+ ...
+}
+```
+
