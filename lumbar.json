@@ -1,0 +1,10 @@
+{
+    "name" : "backbone-super",
+    "mixins" : {
+        "backbone-super" : {
+            "scripts" : [
+               "backbone-super/backbone-super.js" 
+            ]
+        }
+    }    
+}
